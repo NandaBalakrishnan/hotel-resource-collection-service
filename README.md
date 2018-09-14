@@ -66,4 +66,11 @@ Request Body :{
   * json file 
      * It contains sample hotel resource usage.
      * command line runner in ThgHotelApplication class will read the static assets(json file)and send the data to kafka topic provided in application.properties
+ 
+## ELK Screenshots
+ *  Please find the ELK output screenshots in the ELK_Dashboard_screenshots.docx 
+
+## logstash configuration File
+ * please find the logstash configuration file.
+ 
    
