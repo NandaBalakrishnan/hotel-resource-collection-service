@@ -1,0 +1,41 @@
+# Sample Logstash configuration for creating a simple
+# Beats -> Logstash -> Elasticsearch pipeline.
+
+input {
+ kafka {
+         bootstrap_servers => "localhost:9092"
+         topics => ["test"]
+    }
+}
+filter {
+   json
+{
+source=>"message"
+target=>"parsedJson"
+}
+mutate
+{
+add_field=>
+{
+"hotelId"=> "%{[parsedJson][hotelId]}"
+"hotelName" => "%{[parsedJson][hotelName]}"
+"description" => "%{[parsedJson][description]}"
+"city" => "%{[parsedJson][city]}"
+"rating" => "%{[parsedJson][rating]}"
+"electricityUsage" => "%{[parsedJson][electricityUsage]}"
+"electricityUnit" => "%{[parsedJson][electricityUnit]}"
+"waterUsage" => "%{[parsedJson][waterUsage]}"
+"waterUnit" => "%{[parsedJson][waterUnit]}"
+"waste" => "%{[parsedJson][waste]}"
+"wasteUnit" => "%{[parsedJson][wasteUnit]}"
+}
+}
+}
+
+output {
+  elasticsearch {
+      hosts => ["localhost:9200"]
+      index => "energy_resource"
+      workers => 1
+    }
+}
