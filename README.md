@@ -61,9 +61,9 @@ Request Body :{
 		"waste": 30.4,
 		"wasteUnit": "kg"
 	}
-  
-  ## static assets
-      * json file 
-          * It contains sample hotel resource usage.
-          * command line runner in ThgHotelApplication class will read the static assets(json file)and send the data to kafka topic provided in application.properties
+
+## static assets
+  * json file 
+     * It contains sample hotel resource usage.
+     * command line runner in ThgHotelApplication class will read the static assets(json file)and send the data to kafka topic provided in application.properties
    
