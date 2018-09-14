@@ -1,0 +1,61 @@
+[{
+		"hotelId": 9299,
+		"hotelName": "Gateway",
+		"electricityUsage": 3.8,
+		"electricityUnit": "kWH",
+		"waterUsage": 5.5,
+		"waterUnit": "L",
+		"waste": 30.4,
+		"wasteUnit": "kg"
+	},
+	{
+		"hotelId": 999,
+		"hotelName": "citrus",
+		"electricityUsage": 3.2,
+		"electricityUnit": "kWH",
+		"waterUsage": 5.2,
+		"waterUnit": "L",
+		"waste": 3.0,
+		"wasteUnit": "kg"
+	},
+	 {
+		"hotelId":9199 ,
+		"hotelName": "TempleCity",
+		"electricityUsage": 22.3,
+		"electricityUnit": "kWH",
+		"waterUsage": 25.6,
+		"waterUnit": "L",
+		"waste": 130.67,
+		"wasteUnit": "kg"
+	},
+	{
+		"hotelId": 139,
+		"hotelName": "Zaithoon",
+		"electricityUsage": 56.6,
+		"electricityUnit": "kWH",
+		"waterUsage": 35.5,
+		"waterUnit": "L",
+		"waste": 16.60,
+		"wasteUnit": "kg"
+	},
+	{
+		"hotelId": 2939,
+		"hotelName": "ponappar",
+		"electricityUsage": 3,
+		"electricityUnit": "kWH",
+		"waterUsage": 33,
+		"waterUnit": "L",
+		"waste": 30,
+		"wasteUnit": "kg"
+	},
+	{
+		"hotelId": 0,
+		"hotelName": "IBIS",
+		"electricityUsage": 3,
+		"electricityUnit": "kWH",
+		"waterUsage": 39,
+		"waterUnit": "L",
+		"waste": 50,
+		"wasteUnit": "kg"
+	}
+]
