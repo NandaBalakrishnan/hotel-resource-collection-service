@@ -71,6 +71,6 @@ Request Body :{
  *  Please find the ELK output screenshots in the ELK_Dashboard_screenshots.docx 
 
 ## logstash configuration File
- * please find the logstash configuration file.
+ * please find the logstash configuration file in the logstash-sample.txt
  
    
